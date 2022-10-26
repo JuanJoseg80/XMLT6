@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE listacursos SYSTEM "reglalistacursos.dtd">
+
+
+
+<listacursos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="listacursos.xml">
+    <curso>
+        <alumno>
+            <dni>45234566</dni>
+            <nombre>camila</nombre>
+            <apellido1>ortega</apellido1>
+            <listaasignaturas>
+
+                <asignatura codigo="ING001">
+                    <nombre>Ces3</nombre>
+                    <profesor>
+                        <nrp>7</nrp>
+                        <nombre>Oscar</nombre>
+                        <apellido1>mesa</apellido1>
+                    </profesor>
+                </asignatura>
+                <asignatura codigo="ING003">
+                    <nombre>Diseño</nombre>
+                    <profesor>
+                        <nrp>6</nrp>
+                        <nombre>Carlos</nombre>
+                        <apellido1>Builes</apellido1>
+                    </profesor>
+                </asignatura>
+            </listaasignaturas>
+        </alumno>
+    </curso>
+
+    <curso>
+        <alumno>
+            <dni>656336</dni>
+            <nombre>John</nombre>
+            <apellido1>Estrada</apellido1>
+            <apellido2>Henao</apellido2>
+            <listaasignaturas>
+
+
+                <asignatura codigo="ING005">
+                    <nombre>Implementacion</nombre>
+                    <profesor>
+                        <nrp>8</nrp>
+                        <nombre>GLoria</nombre>
+                        <apellido1>Lora</apellido1>
+                    </profesor>
+                </asignatura>
+            </listaasignaturas>
+        </alumno>
+    </curso>
+</listacursos>
